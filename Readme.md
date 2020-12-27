@@ -1,0 +1,1 @@
+### This project contains code to send notifications to Youscribe clients using Youscribe's backend

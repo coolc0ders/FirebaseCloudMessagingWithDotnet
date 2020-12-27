@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>a2b3b3ee-a654-4232-b9bf-8013818a1b5d</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Firebase.Notifications\Firebase.Notifications.csproj" />
+  </ItemGroup>
+
+
+</Project>
