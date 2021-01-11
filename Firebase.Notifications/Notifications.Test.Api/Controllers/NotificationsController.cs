@@ -126,6 +126,7 @@ namespace NotificationsBackend.Controllers
             return Ok();
         }
 
+        /*
         [HttpPost()]
         public IActionResult SendNotification([FromBody] NotificationRequest notification)
         {
@@ -139,6 +140,7 @@ namespace NotificationsBackend.Controllers
             _pushNotificationsService.SendPushNotifications(tokens.ToList(), notification.NotificationTitle, notification.NotificationContent);
             return Ok();
         }
+        */
     }
 
     public class RegisterUserTokenRequest
